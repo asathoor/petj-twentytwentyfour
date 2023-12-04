@@ -838,12 +838,15 @@
 			},
 			"link": {
 				":hover": {
+					"color": {
+						"text": "#2e9820"
+					},
 					"typography": {
 						"textDecoration": "none"
 					}
 				},
 				"color": {
-					"text": "var(--wp--preset--color--contrast)"
+					"text": "#265666"
 				}
 			}
 		},

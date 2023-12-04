@@ -2,29 +2,67 @@
 
 <!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"width":"33.33%"} -->
-<div class="wp-block-column" style="flex-basis:33.33%"><!-- wp:group {"style":{"spacing":{"padding":{"right":"var:preset|spacing|10","left":"var:preset|spacing|10"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group" style="padding-right:var(--wp--preset--spacing--10);padding-left:var(--wp--preset--spacing--10)"><!-- wp:search {"label":"Søg","width":100,"widthUnit":"%","buttonText":"Søg","buttonPosition":"button-inside","buttonUseIcon":true} /-->
+<div class="wp-block-column" style="flex-basis:33.33%"><!-- wp:search {"label":"Search","placeholder":"what","width":100,"widthUnit":"%","buttonText":"Søg","buttonPosition":"button-inside","buttonUseIcon":true} /-->
 
-<!-- wp:heading -->
-<h2 class="wp-block-heading">New Posts</h2>
+<!-- wp:heading {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}}} -->
+<h2 class="wp-block-heading" style="font-style:normal;font-weight:600">New Posts</h2>
 <!-- /wp:heading -->
 
-<!-- wp:latest-posts {"displayPostDate":true} /--></div>
-<!-- /wp:group --></div>
+<!-- wp:latest-posts {"postsToShow":11,"featuredImageSizeSlug":"medium","addLinkToFeaturedImage":true,"style":{"elements":{"link":{"color":{"text":"var:preset|color|base"},":hover":{"color":{"text":"var:preset|color|base-2"}}}},"spacing":{"padding":{"right":"var:preset|spacing|10","left":"var:preset|spacing|10","top":"var:preset|spacing|10","bottom":"var:preset|spacing|10"},"margin":{"top":"var:preset|spacing|10","bottom":"var:preset|spacing|10"}}},"backgroundColor":"contrast","textColor":"base"} /-->
+
+<!-- wp:heading {"level":4} -->
+<h4 class="wp-block-heading">Letbanen (L2)</h4>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p><strong>Between Aarhus H and Viby J</strong></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul><!-- wp:list-item -->
+<li><a href="https://www.rejseplanen.dk/webapp/index.html?language=da_DA#!S|Viby J!Z|Aarhus H" target="_blank" rel="noreferrer noopener">Viby J to Aarhus H</a></li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li><a href="https://www.rejseplanen.dk/webapp/index.html?language=da_DA#!S|Aarhus H!Z|Viby J" target="_blank" rel="noreferrer noopener">Aarhus H to Viby J</a></li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p><strong>Between Kongsvang and Aarhus H</strong></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul><!-- wp:list-item -->
+<li><a href="https://www.rejseplanen.dk/webapp/index.html?language=da_DA#!S|Kongsvang!Z|Aarhus H" target="_blank" rel="noreferrer noopener">Kongsvang to Aarhus H</a></li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li><a href="https://www.rejseplanen.dk/webapp/index.html?language=da_DA#!S|Aarhus H!Z|Kongsvang" target="_blank" rel="noreferrer noopener">Aarhus H to Kongsvang</a></li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li><a href="https://www.rejseplanen.dk/webapp/index.html?language=da_DA#!S|Kongsvang!Z|Viby H" target="_blank" rel="noreferrer noopener">Kongsvang to Viby J</a></li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p>More about Rejseplanen's socalled "intelligent links". They are practical, but as usual "intelligent" is an exaggeration. <a href="https://help.rejseplanen.dk/hc/en-us/articles/115000374849-Intelligent-links-to-Rejseplanen" target="_blank" rel="noreferrer noopener">Read this article.</a></p>
+<!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"width":"66.66%"} -->
-<div class="wp-block-column" style="flex-basis:66.66%"><!-- wp:group {"tagName":"main","style":{"spacing":{"blockGap":"0","margin":{"top":"0"}}},"layout":{"type":"default"}} -->
-<main class="wp-block-group" style="margin-top:0"><!-- wp:query {"queryId":19,"query":{"perPage":7,"pages":0,"offset":"0","postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true},"layout":{"type":"constrained"}} -->
+<div class="wp-block-column" style="flex-basis:66.66%"><!-- wp:group {"tagName":"main","style":{"spacing":{"blockGap":"0","margin":{"top":"0"}},"border":{"width":"0px","style":"none"}},"layout":{"type":"default"}} -->
+<main class="wp-block-group" style="border-style:none;border-width:0px;margin-top:0"><!-- wp:query {"queryId":19,"query":{"perPage":5,"pages":0,"offset":"0","postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true},"layout":{"type":"constrained"}} -->
 <div class="wp-block-query"><!-- wp:query-no-results -->
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"contrast","textColor":"base","fontSize":"large","fontFamily":"system-Serif"} -->
 <p class="has-base-color has-contrast-background-color has-text-color has-background has-link-color has-system-serif-font-family has-large-font-size">500+ tutorials about multimedia, web design and WordPress.</p>
 <!-- /wp:paragraph -->
 <!-- /wp:query-no-results -->
 
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50","left":"0","right":"0"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"default"}} -->
-<div class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--50);padding-right:0;padding-bottom:var(--wp--preset--spacing--50);padding-left:0"><!-- wp:post-template {"align":"full","style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"default","columnCount":3}} -->
-<!-- wp:post-featured-image {"isLink":true,"aspectRatio":"3/2","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|20"}}}} /-->
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"0","right":"0"},"margin":{"top":"0","bottom":"0"}},"border":{"radius":"0px","width":"0px","style":"none"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group" style="border-style:none;border-width:0px;border-radius:0px;margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--30);padding-right:0;padding-bottom:var(--wp--preset--spacing--30);padding-left:0"><!-- wp:post-template {"align":"full","style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"default","columnCount":3}} -->
+<!-- wp:post-featured-image {"isLink":true,"aspectRatio":"3/2","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|20"}},"color":{"duotone":["#A62B0C","#ECEADF"]}}} /-->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"8px"}},"layout":{"type":"flex","orientation":"vertical","flexWrap":"nowrap"}} -->
 <div class="wp-block-group"><!-- wp:post-title {"isLink":true,"style":{"spacing":{"margin":{"bottom":"0"}}},"fontSize":"x-large"} /-->
