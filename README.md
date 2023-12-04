@@ -8,7 +8,7 @@
  * Footer: layout changes
  * Links: color contrast
 
-IMHO the color contrast between links and the color selection is too limited. So I've added link and :hover colors.
+IMHO the color contrast between links and the color selection is too limited. So I've added link and :hover colors. I made the changes in the Styles panel and saved everything via an export of the theme. So that's another, perhaps faster modus operandi than tampering with the .json files.
 
 ## Concerning Custom Fonts
 
