@@ -9,3 +9,12 @@
  * Links: color contrast
 
 IMHO the color contrast between links and the color selection is too limited. So I've added link and :hover colors.
+
+## Concerning Custom Fonts
+
+In the fonts section I have added the Permanent Marker font from Google Fonts. The files are found in ./assets/fonts/Permanent_Marker/
+
+From Google I had to download a .ttf file, however it had to be converted to .woff2 - and here I used this free online converter tool:
+
+[https://cloudconvert.com/ttf-to-woff2](https://cloudconvert.com/ttf-to-woff2)
+
